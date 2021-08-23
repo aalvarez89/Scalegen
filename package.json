@@ -1,0 +1,14 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tonaljs/tonal": "^4.6.2",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "conf": "^10.0.2"
+  },
+  "type": "module"
+}
