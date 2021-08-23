@@ -127,15 +127,18 @@ if (args[2] !== undefined) {
     'Mute',
     'Harmonics',
     'Tapping',
+    'String Skipping',
     'Hybrid Picking'
   ];
 
-  let srhe = rightHandExercise[randomInt(0, rightHandExercise.length - 1)];
-  let sc = condition[randomInt(0, condition.length - 1)];
+  let s_rhe = rightHandExercise[randomInt(0, rightHandExercise.length - 1)];
+  let s_rep = leftHandExercise[randomInt(0, leftHandExercise.length - 1)];
+  let s_con = condition[randomInt(0, condition.length - 1)];
 
   console.log(`
 ${preExercise ? preExercise : null}
-${srhe} - ${sc}`);
+${s_rhe} - ${s_con}
+Reps: ${s_rep}`);
 }
 
 console.log(`
