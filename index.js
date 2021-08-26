@@ -90,10 +90,11 @@ if (args[0] !== undefined) {
 
 let randomScale = Scale.get(query); //.notes;
 
-if (args[2] !== undefined) {
+console.log(args.find(a => a === 'pex'));
+if ((arg = args.find(a => (a === 'pex') !== undefined))) {
   let preExercise;
 
-  if (args[2].includes('p')) {
+  if (arg.includes('p')) {
     preExercise = [
       'Bend-Fold-Tap-Push',
       'Piano Taps',
